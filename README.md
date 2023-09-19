@@ -46,7 +46,15 @@ The dataset classifies machines into three distinct classes:
 
 **Machine failure**: A binary indicator specifying whether the machine failed (1) or not (0).
 
-**Other Failure Modes**: The dataset also includes information about other failure modes:
+**Other Failure Modes**: The dataset includes information about other potential causes of machine failures, such as TWF, HDF, PWF, OSF, and RNF. These failure modes contribute to a more comprehensive understanding of machine failures.
+
+Failure modes describe the potential root causes of failures within a machine or system, rather than directly indicating the occurrence of a failure. These causes are among the key factors that can lead to failures. Failures can occur based on specific causes or conditions, and sometimes, multiple causes can interact, leading to failures.
+
+For instance, "Heat Dissipation Failure (HDF)" is one of the potential failure modes that can occur within a machine or system, and it can lead to failures. Overheating can result in component damage, which, in turn, can lead to failures. However, HDF itself does not represent a machine's failure; it is an explanation of a possible cause that can contribute to a failure or a decrease in machine performance.
+
+Therefore, there can be a relationship between failure modes and actual failures, with causes potentially leading to specific outcomes. However, it's essential to distinguish between causes and results. Identifying the precise causes and implementing corresponding measures to manage and prevent failure modes is crucial.
+
+The dataset provides detailed explanations for other failure modes classified under "Other Failure Modes."
 
 * **TWF (Tool Wear Failure)**: Indicates whether the machine failed due to tool wear.
 
