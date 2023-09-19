@@ -4,6 +4,7 @@
 - [Project Source:](#project-source)
 - [Dataset Description Source](#dataset-description-source)
 
+* [[한국어 README Link]](https://github.com/tooha289/Machine-Failure-Binary-Classification-ML-DL/blob/main/README-ko.md)
 # Project Background
 Machine failures are a significant issue in the industrial sector, as they can lead to production disruptions, increased maintenance costs, safety concerns, and various other problems. Consequently, there is a growing need for models and systems that can predict and prevent machine failures in advance. To address these challenges, a project that utilizes machine learning and data analysis to predict machine failures and develop proactive maintenance systems is essential.
 
